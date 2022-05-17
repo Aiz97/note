@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: rgb(62, 234, 247);
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.add{
+    position: fixed;
+    top:1rem;
+    right:1rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: rgb(120, 238, 179);
+    cursor: pointer;
+}
+.note{
+    width:300px;
+    height: 250px;
+    margin: 30px 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.note .tools{
+    background-color: rgb(120, 238, 179);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.note textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 250px;
+    width: 100%;
+    padding: 20px;
+    resize: none;
+}
